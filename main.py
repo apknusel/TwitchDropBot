@@ -29,7 +29,7 @@ def start_watching(streamers, streamerslive, username, t):
     print(f"Started watching {username}!")
     URL = f"https://www.twitch.tv/{username}"
     options = webdriver.ChromeOptions()
-    options.headless = True
+    options.headless = config["Chrome"]["Headless"]
     options.add_argument(f"user-data-dir={profile}")
     driver = webdriver.Chrome(executable_path=r"chromedriver.exe", options=options)
     driver.get(URL);
