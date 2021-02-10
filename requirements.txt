@@ -1,0 +1,4 @@
+configparser
+selenium
+urllib3
+requests
