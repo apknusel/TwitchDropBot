@@ -19,15 +19,7 @@ Create an application on https://dev.twitch.tv/console and put your Client ID an
 python main.py
 ```
 
-**IMPORTANT**: If there are any issues change:
-```python
-options.headless = True
-```
-to
-```python
-options.headless = False
-```
-This will allow Google Chrome to open and you will be able to see what is happening. If you are not collecting drops and the script has been running, you will want to leave this as False.
+**IMPORTANT**: If there are any issues change Headless in the config.ini file to False. This will allow Google Chrome to open and you will be able to see what is happening. If you are not collecting drops and the script has been running, you will want to leave this as False.
 
 Fill in the information that is requested similar to the picture below.
 ![](https://i.gyazo.com/c385f8ecd3750aef18e2ae1777f6cac5.png)
